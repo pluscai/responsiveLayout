@@ -1,0 +1,145 @@
+a,a:hover{
+    color:#555;
+    text-decoration: none;
+}
+.active>a{
+    color:#ffffff;
+}
+/*---header---*/
+/*--第一行--*/
+.header .row-one .btns{
+    height:40px;
+    padding:10px;
+}
+.header .row-one .btns>a{margin:0 5px;}
+.header .tabs-header>.row > div{
+    margin:5px 0;
+    height:30px;
+    line-height:30px;
+    cursor: pointer;
+    text-align: center;
+}
+.header .tabs-header>.row > div.active{
+    background:#d9534f;
+    border-radius: 5px;
+    color:#fff;
+}
+/*---第2 行--*/
+.header .row-two{
+    background: #dbdbdb;
+    margin:2px 0 ;
+}
+.header .tabs-line>.row > div{
+    height:2px;
+}
+.header .tabs-line>.row > div.active{
+    background:#d9534f;
+}
+/*--第3 行--*/
+.header .tabs-content{
+    margin-top:-2px;
+    padding:5px;
+    border:1px solid #dbdbdb;
+    border-radius:0 0 5px 5px;
+    background: #f8f8f8;
+}
+.header .row-four>.tab-content>div{
+    padding:5px;
+    border:1px solid #dbdbdb;
+    border-top:none;
+    border-radius: 0 0 5px 5px;
+}
+/*-----------------头部结束----------------------*/
+/*第二部分*/
+/*第一行*/
+.search>.labels{
+   height:40px;
+    line-height:40px;
+}
+.search > .labels > span{
+    margin:0 5px;
+}
+/*第二行*/
+.search > .row-two{
+    height:30px;
+    background:#f8f8f8;
+    border-bottom:1px solid #dbdbdb;
+    margin-bottom:5px;
+}
+/*第三行*/
+.search .row-three > ul >li{
+    width:80px;
+    text-align: center;
+    cursor: pointer;
+}
+.search .row-three > ul >li:first-child{
+    width:120px;
+    text-align: left;
+}
+.search .row-three > ul >li.active > a{
+    color:#fff;
+    background:#d9534f;
+    border-radius:5px;
+    padding:2px 8px;
+}
+.search .row-three > ul >li:last-child{
+    border:1px solid #dbdbdb;
+}
+/*----时间段选择---*/
+.searchArea .row-four{
+    background:#dbdbdb;
+    border:1px solid #c0c0c0;
+}
+.searchArea .row-four> ul{
+    margin-bottom:0px;
+}
+.searchArea.row-four> ul > li{
+    height:30px;
+    line-height: 30px;
+    margin:0;
+}
+.searchArea .choice-time .row-four> ul > li.active{
+    background: #d9534f;
+    border:1px solid #dbdbdb;
+    border-radius: 5px;
+}
+/*--搜索结果--*/
+.searchArea .search-result>.row-five{
+    padding:5px;
+    background: #f8f8f8;
+    border:1px solid #dbdbdb;
+    border-top:none;
+}
+/*极小屏下的search*/
+.searchArea .search-phone>div{
+    margin-top:5px;
+}
+.searchArea .search-phone .labels>span{
+    margin:0 3px;
+}
+.searchArea .search-phone .searchBox>ul>li{
+    border:1px solid #dbdbdb;
+    border-radius:5px;
+    padding: 5px;
+    margin:2px 0;
+}
+.searchArea .search-phone .searchBox>ul>li.active{
+    background:#d9534f;
+}
+.searchArea .search-phone .searchBox>ul>li.active > a{
+    color:#fff;
+}
+.searchArea .search-phone>div>ul{
+    margin:10px 0;
+}
+/*表格*/
+table td{
+    text-align:center;
+}
+/*footer*/
+.footer{
+    padding:20px;
+    background:#a8251d;
+    color:#fff;
+}
+
